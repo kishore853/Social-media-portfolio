@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore | Digital Marketer & Ad Strategist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #0f172a; color: white; scroll-behavior: smooth; }
+        .card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid #334155; }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body>
+
+    <header class="fixed w-full z-50 bg-slate-900/80 p-4 border-b border-slate-800">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold gradient-text">Kishore</h1>
+            <nav class="space-x-6 hidden md:block">
+                <a href="#about" class="hover:text-sky-400">About</a>
+                <a href="#skills" class="hover:text-sky-400">Skills</a>
+                <a href="#scripts" class="hover:text-sky-400">Creative Scripts</a>
+                <a href="#contact" class="px-4 py-2 bg-sky-500 rounded-lg">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="pt-32 pb-20 px-6 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-extrabold mb-4">I'm <span class="gradient-text">Kishore</span></h2>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto">
+                [span_3](start_span)Enthusiastic Digital Marketing fresher and BBA graduate[span_3](end_span). [span_4](start_span)Specialized in Meta ads, SEO, and high-conversion ad scripts[span_4](end_span).
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 bg-slate-800/50">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold mb-10">Technical Skills</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="card p-6 rounded-xl">
+                    <i class="fas fa-bullhorn text-3xl text-sky-400 mb-4"></i>
+                    [span_5](start_span)<p>Meta & Google Ads[span_5](end_span)</p>
+                </div>
+                <div class="card p-6 rounded-xl">
+                    <i class="fas fa-search text-3xl text-green-400 mb-4"></i>
+                    [span_6](start_span)<p>SEO & Keywords[span_6](end_span)</p>
+                </div>
+                <div class="card p-6 rounded-xl">
+                    <i class="fas fa-pen-fancy text-3xl text-purple-400 mb-4"></i>
+                    [span_7](start_span)[span_8](start_span)<p>Ad Script Writing[span_7](end_span)[span_8](end_span)</p>
+                </div>
+                <div class="card p-6 rounded-xl">
+                    <i class="fas fa-chart-bar text-3xl text-red-400 mb-4"></i>
+                    [span_9](start_span)<p>Google Analytics[span_9](end_span)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="scripts" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold mb-10 text-center">Creative Ad Concepts</h3>
+            <div class="grid md:grid-cols-2 gap-12">
+                
+                <div class="card overflow-hidden rounded-2xl">
+                    <div class="p-2 grid grid-cols-2 gap-2">
+                        [span_10](start_span)<div class="h-40 bg-slate-600 rounded flex items-center justify-center italic text-xs">Image: Shirt Lock Hook[span_10](end_span)</div>
+                        [span_11](start_span)<div class="h-40 bg-slate-600 rounded flex items-center justify-center italic text-xs">Image: Running Scene[span_11](end_span)</div>
+                    </div>
+                    <div class="p-6">
+                        [span_12](start_span)<h4 class="text-xl font-bold text-sky-400 mb-2">Direct Sales: Gadget Offer[span_12](end_span)</h4>
+                        [span_13](start_span)<p class="text-sm text-slate-400 mb-4">Focused on aggressive hooks (90% Offer) and high energy to drive sales[span_13](end_span).</p>
+                        [span_14](start_span)[span_15](start_span)<p class="italic text-slate-300 border-l-2 border-sky-500 pl-3">"Soldra enga da vanguna? ... Namma gadget insta page la 90% offer!"[span_14](end_span)[span_15](end_span)</p>
+                    </div>
+                </div>
+
+                <div class="card overflow-hidden rounded-2xl">
+                    <div class="p-2 grid grid-cols-2 gap-2">
+                        [span_16](start_span)<div class="h-40 bg-slate-600 rounded flex items-center justify-center italic text-xs">Image: Watch Comparison[span_16](end_span)</div>
+                        [span_17](start_span)<div class="h-40 bg-slate-600 rounded flex items-center justify-center italic text-xs">Image: Logo vs Quality[span_17](end_span)</div>
+                    </div>
+                    <div class="p-6">
+                        [span_18](start_span)<h4 class="text-xl font-bold text-indigo-400 mb-2">Comparison: Value Strategy[span_18](end_span)</h4>
+                        [span_19](start_span)<p class="text-sm text-slate-400 mb-4">Highlighting premium features (AI voice, health tracker) at an affordable price[span_19](end_span).</p>
+                        [span_20](start_span)<p class="italic text-slate-300 border-l-2 border-indigo-500 pl-3">"Apple lungura verum oru logo mattum vachi sell pannitu irukapo... athey quality product!"[span_20](end_span)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-900 text-center">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
+            <p class="text-slate-400 mb-8">Ready to boost your brand's digital presence.</p>
+            <div class="space-y-2">
+                [span_21](start_span)<p><i class="fas fa-envelope text-sky-400 mr-2"></i> kishorebarani20@gmail.com[span_21](end_span)</p>
+                [span_22](start_span)<p><i class="fas fa-phone text-sky-400 mr-2"></i> 6374910801[span_22](end_span)</p>
+                [span_23](start_span)<p><i class="fas fa-location-arrow text-sky-400 mr-2"></i> Korattur, Chennai[span_23](end_span)</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
